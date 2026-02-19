@@ -1,0 +1,89 @@
+body {
+  background-image: linear-gradient(to bottom, #434d56, #2f3640, black);
+  font-family: Arial;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+h1 {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border: 4px solid white;
+  border-radius: 50px;
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
+  margin-top: 30px;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+li {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  padding: 20px;
+}
+
+.horizontal-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 0;
+  list-style-type: none;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  margin: auto;
+  border-radius: 25px;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
